@@ -1,0 +1,12 @@
+[package]
+name = "pac-exercise"
+version = "0.1.0"
+authors = ["Brandon Matthews <bmatthews@optimaltour.us>"]
+edition = "2018"
+
+[dependencies]
+cc1352p1f3 = { path = "../cc1352p1f3/", version = "0.1.0" }
+embedded-hal = "0.2.2"
+panic-halt = "0.2.0"
+cortex-m = "0.6.0"
+cortex-m-rt = "0.6.7"
